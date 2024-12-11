@@ -69,20 +69,35 @@ let BeautifulJekyllJS = {
         prefetchImg.src = src;
         // if I want to do something once the image is ready: `prefetchImg.onload = function(){}`
 
-        setTimeout(function(){
-          const img = $("<div></div>").addClass("big-img-transition").css("background-image", 'url(' + src + ')');
+        setTimeout(function () {
+          // Sanitize the source URL
+          const sanitizedSrc = encodeURIComponent(src);
+      
+          // Create a new image div with a sanitized background image URL
+          const img = $("<div></div>")
+              .addClass("big-img-transition")
+              .css("background-image", `url(${sanitizedSrc})`);
+      
+          // Prepend the new image to the big image container
           $(".intro-header.big-img").prepend(img);
-          setTimeout(function(){ img.css("opacity", "1"); }, 50);
-
-          // after the animation of fading in the new image is done, prefetch the next one
-          //img.one("transitioned webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
-          setTimeout(function() {
-            BeautifulJekyllJS.setImg(src, desc);
-            img.remove();
-            getNextImg();
+      
+          // Fade in the new image
+          setTimeout(function () {
+              img.css("opacity", "1");
+          }, 50);
+      
+          // After the animation of fading in the new image is done, prefetch the next one
+          setTimeout(function () {
+              // Set the new image and description
+              BeautifulJekyllJS.setImg(sanitizedSrc, desc);
+      
+              // Remove the old image
+              img.remove();
+      
+              // Fetch the next image
+              getNextImg();
           }, 1000);
-          //});
-        }, 6000);
+      }, 6000);
       };
 
       // If there are multiple images, cycle through them
