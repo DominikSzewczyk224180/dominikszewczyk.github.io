@@ -13,51 +13,53 @@ categories: projects
 ---
 
 {: .box-success}
-This project with the Netherlands Plant Eco-phenotyping Center (NPEC) focused on transforming machine learning models into production-ready solutions, deploying them in the cloud for enhanced plant science research.
+This project, in collaboration with Antea Group and Kavel 10, focused on AI-driven automation for 3D urban modeling. We explored semantic segmentation, generative AI for object removal, and Neural Radiance Fields (NeRF) to enhance digital twin generation.
 
-**Project Duration:** April 2024 - July 2024
+**Project Duration:** September 2025 - February 2025 
 
-## 💡 Project Summary
+## 💡 Project Summary  
 
-In this project, I converted machine learning models from a previous project into production-ready solutions for the ATHENA application. ATHENA is a Python package and cloud application designed for plant science researchers at NPEC. It enables precise organ segmentation and landmark detection on high-resolution plant images, processes new data, trains models, and predicts plant organs, providing a heatmap indicating the model's confidence for each pixel.
+Our team researched AI methods to automate the reconstruction of urban environments. The project involved developing custom machine learning pipelines for object removal, leveraging semantic segmentation to detect and isolate structures, and utilizing NeRF for high-fidelity 3D visualization. The ultimate goal was to improve 3D mesh quality from aerial imagery, supporting urban planning and infrastructure projects.
 
-## 👨‍💻 MLOps Integration
+## 🖼️ Image Inpainting & Semantic Segmentation  
 
-Key components of the MLOps integration included:
-- **Code Development:** Created robust, modular code with thorough documentation, logging, and unit testing.
-- **Automated Pipelines:** Established data ingestion and model training pipelines on Microsoft Azure, utilizing versioned data assets and managed environments.
-- **Deployment Strategy:** Devised and executed an Azure-based deployment strategy, integrating APIs for model inference and training, and used Docker containers for environment encapsulation.
-- **Continuous Monitoring:** Implemented monitoring to ensure prediction accuracy and model performance, with mechanisms for timely retraining.
+- Tested and compared DeepFill v2, LaMa, and PowerPaint for object removal on client data.  
+- Developed a custom ML pipeline allowing users to preprocess data, adjust model parameters, and train segmentation models through a CLI interface.  
+- Trained a semantic segmentation model to detect and isolate trees, preparing for future AI-powered object removal.  
+- Evaluated models like U-Net, DeepLabV3, and FCN on key metrics such as accuracy and IoU, selecting FCN as the most effective model. (Full process and technical aspects detailed in the report.)  
 
-## 🚀 Technical Achievements
+## 🌍 3D Reconstruction & NeRF Exploration  
 
-- **Cloud Integration:** Deployed models to achieve scalable and reliable machine learning solutions in the cloud.
-- **FastAPI Integration:** Utilized FastAPI to develop efficient APIs for model interaction.
-- **Containerization:** Employed Docker containers to maintain consistent and reproducible environments.
-- **Automated Reporting:** Generated reports to monitor unit test coverage and used Sphinx for comprehensive documentation.
-- **Custom CLI:** Developed a command-line interface (CLI) for managing training and inference pipelines.
+- Implemented Instant NeRF to generate high-quality 3D visualizations from short drone video sequences.  
+- Used NeRF Studio to create, refine, and optimize point clouds for 3D mesh generation.  
+- Cleaned point clouds and generated detailed 3D meshes, improving visual fidelity for urban reconstruction.  
+- Developed a VR environment in Unreal Engine, allowing immersive exploration of reconstructed urban areas.  
 
-## 📸 App Snippets
+## 📑 Final Deliverables & Presentation  
 
-Here are some snapshots from our aplication:
+- Delivered reports covering data quality, project lifecycle, and AI model recommendations. (Includes a NeRF recommendation document detailing implementation steps, data preparation, and potential applications.)  
+- Created a CLI interface for data preparation and model training.  
+- Presented findings to mentors, peers, and clients in a final conference, demonstrating AI’s impact on urban digital twin advancements.  
 
-![App Snapshot 1]({{ '/assets/img/npec_mlops_presentation1.png' | relative_url }})
-![App Snapshot 2]({{ '/assets/img/npec_mlops_presentation2.png' | relative_url }})
-![App Snapshot 3]({{ '/assets/img/npec_mlops_presentation3.png' | relative_url }})
+## 📸 Project Snapshots  
 
-## 🔗 Links
+![3D Reconstruction]({{ '/assets/img/antea_3d_mesh.png' | relative_url }})  
+![NeRF Point Cloud]({{ '/assets/img/antea_nerf_pointcloud.png' | relative_url }})  
+![Semantic Segmentation]({{ '/assets/img/antea_segmentation.png' | relative_url }})  
 
-- [View the Project on GitHub](https://github.com/DominikSzewczyk224180/Projects-2023-2024)
+## 🔗 Links  
 
-## 🛠 Skills
+- [View the Project on GitHub](https://github.com/DominikSzewczyk224180/Projects-2023-2024)  
 
-- Cloud Deployment
-- Continuous Integration (CI)
-- FastAPI
-- Continuous Deployment (CD)
-- Microsoft Azure
-- Sphinx
-- MLOps
-- Microsoft Azure Machine Learning
-- Docker Products
-- Data Engineering
+## 🛠 Skills  
+
+- Machine Learning  
+- Data Science  
+- Image Inpainting  
+- Computer Vision  
+- Neural Radiance Fields (NeRF)  
+- 3D Reconstruction  
+- Unreal Engine  
+- Python  
+- Machine Learning Pipelines  
+- CLI Development  
