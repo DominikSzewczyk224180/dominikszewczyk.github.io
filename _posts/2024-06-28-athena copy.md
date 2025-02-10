@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Engineer MLOps; Deploying AI Models for Plant Science with Cloud Integration
-subtitle: A Collaborative Project with Netherlands Plant Eco-phenotyping Center (NPEC)
+title: AI-Powered 3D Digital Twin & Object Removal Research
+subtitle: A Collaborative Project with Antea Group & Kavel 10
 gh-repo: DominikSzewczyk224180/Projects-2023-2024
 gh-badge: [star, fork, follow]
-tags: [MLOps, Cloud Integration, AI Deployment, Microsoft Azure, Docker]
-thumbnail-img: /assets/img/npec_mlops_presentation1.png
+tags: [Machine Learning, Data Science, Computer Vision, 3D Reconstruction, NeRF, Urban Digital Twins]
+thumbnail-img: /assets/img/antea_project_thumbnail.png
 comments: true
 mathjax: false
 author: Dominik Szewczyk
