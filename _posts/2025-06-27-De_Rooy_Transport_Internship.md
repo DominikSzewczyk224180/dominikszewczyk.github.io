@@ -57,21 +57,6 @@ Future Potential: Recommended short-term expansion to predict deliveries and lon
 > — **Nanko Hensen**, De Rooy Transport & Logistics
 
 
-<div class="box box-info" style="border-left: 5px solid #007acc; padding: 15px; background-color: #f9fcff;">
-<strong>“From our side, it was a fun and valuable experience working with Dominik...</strong>
-
-> He didn’t just put in the work – he showed that he understands what matters: practical value, smart use of data, and a fresh perspective on how things can be improved. We’re very happy with the result and his contribution to De Rooy.
-
-<strong>Dominik can be proud of what he has created. We certainly are.</strong>
-
-> He wasn’t just a smart guy, but also a great colleague – always prepared, always sharp, and with a good sense of humor.
->
-> We won’t forget him, and if we need some clever AI support or a sharp eye on our processes in the future, we’ll definitely keep him in mind.
-
-> I wish him all the best in whatever comes next – and hopefully, our paths will cross again someday.”
-
-> <p style="text-align: right;"><strong>— Nanko Hensen</strong>, De Rooy Transport & Logistics</p> </div>
-
 ## 📹 Project Presentation
 
 Watch the Project Presentation on YouTube: https://youtu.be/IJ8YJA15uSc
