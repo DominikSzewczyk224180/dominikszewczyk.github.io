@@ -5,10 +5,15 @@ subtitle: A Machine Learning Solution for Logistics Optimization
 gh-repo: DominikSzewczyk224180/Projects-2024-2025
 gh-badge: [star, fork, follow]
 tags: [Machine Learning, Data Science, Predictive Analytics, Logistics Optimization, Streamlit, Route Planning]
-thumbnail-img: /assets/img/derooy_project_thumbnail.pngcomments: truemathjax: falseauthor: Dominik Szewczyk
+thumbnail-img: /assets/img/derooy_logo.png
+comments: true
+mathjax: false
+author: Dominik Szewczyk
 categories: projects
 ---
-{: .box-success}This project, developed during my internship at De Rooy Transport, introduced an AI-driven system to predict unexpected pickups, optimizing logistics efficiency and sustainability. By leveraging machine learning models and a user-friendly Streamlit dashboard, the system forecasts pickup occurrences, locations, sizes, quantities, and insertion times, reducing operational costs and emissions.
+
+{: .box-success}
+This project, developed during my internship at De Rooy Transport, introduced an AI-driven system to predict unexpected pickups, optimizing logistics efficiency and sustainability. By leveraging machine learning models and a user-friendly Streamlit dashboard, the system forecasts pickup occurrences, locations, sizes, quantities, and insertion times, reducing operational costs and emissions.
 
 **Project Duration:** January 2025 - June 2025  
 
