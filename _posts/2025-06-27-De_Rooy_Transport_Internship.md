@@ -20,7 +20,7 @@ This project, developed during my internship at De Rooy Transport, introduced an
 ## 💡 Project Summary  
 Collaborating with De Rooy Transport, I designed a predictive system to address the challenge of unexpected pickups, which account for over 82% of daily assignments. The system uses a multi-model machine learning pipeline to forecast pickup details with high accuracy, integrating seamlessly with PTV route planning software. A Streamlit dashboard enables planners to upload data, analyze trends, evaluate models, and generate forecasts, achieving significant savings in distance, costs, and CO2 emissions.
 
-## 🖼️ Image Inpainting & Semantic Segmentation  
+## 📊 Predictive Modeling & Pipeline 
 
 Pickup Occurrence Prediction: Developed a Keras Sequential model to predict pickup occurrences across 5km × 5km grid cells in the Netherlands, achieving 90.2% accuracy, 88.9% precision, and 86.5% F1-score.  
 Exact Location Prediction: Utilized a RandomForestClassifier to predict precise pickup locations within grid cells, achieving a mean distance error of 18 meters and 100% of predictions within 1 km.  
